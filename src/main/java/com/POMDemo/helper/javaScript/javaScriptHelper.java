@@ -1,6 +1,5 @@
 package com.POMDemo.helper.javaScript;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,8 +9,6 @@ import com.POMDemo.helper.logger.loggerHelper;
 public class javaScriptHelper {
 
 	private WebDriver driver;
-	
-	private Logger log=loggerHelper.getLogger(javaScriptHelper.class);
 	
 	public javaScriptHelper(WebDriver driver) {
 		this.driver=driver;

@@ -1,6 +1,5 @@
 package com.POMDemo.utils;
 
-import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
 import com.POMDemo.helper.browserConfiguration.config.objectReader;
@@ -10,7 +9,6 @@ import com.POMDemo.testBase.testBase;
 
 public class loginTest extends testBase{
 	
-	public static final Logger log = loggerHelper.getLogger(loginTest.class);
 	
 	@Test
 	public void testLoginToApplication() {

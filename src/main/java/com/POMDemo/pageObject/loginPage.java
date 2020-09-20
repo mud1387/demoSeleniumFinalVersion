@@ -1,6 +1,6 @@
 package com.POMDemo.pageObject;
 
-import org.apache.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,8 +14,7 @@ import com.POMDemo.helper.logger.loggerHelper;
 public class loginPage {
 	
 	private WebDriver driver;
-	
-	private Logger log=loggerHelper.getLogger(loginPage.class);
+
 	waitHelper waitHelper;
 	
 	@FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[1]/a")

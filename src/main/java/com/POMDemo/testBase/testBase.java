@@ -2,7 +2,6 @@ package com.POMDemo.testBase;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
@@ -19,7 +18,6 @@ public class testBase {
 	
 	public WebDriver driver;
 
-	public static final Logger log = loggerHelper.getLogger(testBase.class);
 	
 	@BeforeTest
 	public void beforeTest() throws Exception {
