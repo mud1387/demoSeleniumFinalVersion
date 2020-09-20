@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.POMDemo.testScripts.loginTest">
+      <class name="com.POMDemo.utils.loginTest">
         <methods>
           <include name="testLoginToApplication"/>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.POMDemo.testScripts.loginTest -->
+      </class> <!-- com.POMDemo.utils.loginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

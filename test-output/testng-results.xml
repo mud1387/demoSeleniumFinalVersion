@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-15T07:15:12Z" name="Default suite" finished-at="2019-06-15T07:15:25Z" duration-ms="13396">
+  <suite started-at="2020-09-20T19:07:34Z" name="Default suite" finished-at="2020-09-20T19:07:47Z" duration-ms="13212">
     <groups>
     </groups>
-    <test started-at="2019-06-15T07:15:12Z" name="Default test" finished-at="2019-06-15T07:15:25Z" duration-ms="13396">
-      <class name="com.POMDemo.testScripts.loginTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.POMDemo.testScripts.loginTest@7ed7259e]" started-at="2019-06-15T07:15:12Z" name="beforeTest" finished-at="2019-06-15T07:15:19Z" duration-ms="7369" status="PASS">
+    <test started-at="2020-09-20T19:07:34Z" name="Default test" finished-at="2020-09-20T19:07:47Z" duration-ms="13212">
+      <class name="com.POMDemo.utils.loginTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.POMDemo.utils.loginTest@16ec5519]" started-at="2020-09-20T19:07:34Z" name="beforeTest" finished-at="2020-09-20T19:07:41Z" duration-ms="6379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testLoginToApplication()[pri:0, instance:com.POMDemo.testScripts.loginTest@7ed7259e]" started-at="2019-06-15T07:15:19Z" name="testLoginToApplication" finished-at="2019-06-15T07:15:25Z" duration-ms="5999" status="PASS">
+        <test-method signature="testLoginToApplication()[pri:0, instance:com.POMDemo.utils.loginTest@16ec5519]" started-at="2020-09-20T19:07:41Z" name="testLoginToApplication" finished-at="2020-09-20T19:07:47Z" duration-ms="6804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginToApplication -->
-      </class> <!-- com.POMDemo.testScripts.loginTest -->
+      </class> <!-- com.POMDemo.utils.loginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

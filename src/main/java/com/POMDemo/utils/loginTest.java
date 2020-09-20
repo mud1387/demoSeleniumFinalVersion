@@ -1,4 +1,4 @@
-package com.POMDemo.testScripts;
+package com.POMDemo.utils;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;

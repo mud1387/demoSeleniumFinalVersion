@@ -20,3 +20,8 @@
 2019-06-15 12:10:22 INFO  loggerHelper:27 - Logger is configured
 2019-06-15 12:10:22 INFO  loggerHelper:27 - Logger is configured
 2019-06-15 12:10:22 INFO  loggerHelper:28 - Logger is configured
+2020-09-20 15:07:38 INFO  waitHelper:32 - Implicit Wait has been set to 120
+2020-09-20 15:07:38 INFO  waitHelper:65 - Waiting for page to load for  100for :SECONDS
+2020-09-20 15:07:38 INFO  waitHelper:67 - Page is loaded
+2020-09-20 15:07:44 INFO  waitHelper:49 - Waiting for element [[ChromeDriver: chrome on WINDOWS (852308d8f833c711865800c7f7e53530)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]for :20
+2020-09-20 15:07:44 INFO  waitHelper:52 - Element is visible now
