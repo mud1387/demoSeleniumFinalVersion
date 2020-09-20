@@ -9,7 +9,7 @@ public interface configReader {
 	public int getPageLoadTime();
 	public browserType getBroserType();
 	public String getUrl();
-	public String getUsername();
-	public String getPassword();
+	public String getFirstName();
+	public String getLastName();
 	
 }

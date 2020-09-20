@@ -15,7 +15,7 @@ public class loginTest extends testBase{
 		
 		getApplicationUrl(objectReader.reader.getUrl());
 		loginPage loginPage= new loginPage(driver);
-		loginPage.loginToApplication(objectReader.reader.getUsername(), objectReader.reader.getPassword());
+		loginPage.loginToApplication(objectReader.reader.getFirstName(), objectReader.reader.getLastName());
 		
 		
 	}
